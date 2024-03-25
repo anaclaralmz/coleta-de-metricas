@@ -12,7 +12,9 @@
 - Facilita a instrumentação de código para coletar dados de telemetria, como rastreamentos, métricas e logs.
 - ![pacotes](./assets/opentelemetry.png)
 #### Prometheus
-- Utilizado para a coleta das métricas.
+- Utilizado para a coleta de métricas, incluindo armazenamento e consulta de métricas.
+- Permite o monitoramento em tempo real, além de oferecer alertas baseados em regras definidas pelo usuário. 
+- Tem uma configuração muito simples, e uma integração nativa com diversas ferramentas e serviços de monitoramento, sendo essa uma vantagem muito importante.
 - Resultado obtido das métricas sem o prometheus:
 
 ![resposta](./assets/retorno.png)
@@ -22,10 +24,12 @@
   ![resposta](./assets/prometheus2.png)
 #### Grafana
 - Utilizado para gerar dashboards e alertas com base no prometheus, por exemplo.
+- Visualiza e monitora dados de várias fontes em painéis personalizáveis, oferecendo insights visuais em tempo real sobre o desempenho e a saúde de sistemas e aplicativos.
 ![grafana](./assets/grafana.png)
 ![grafana](./assets/grafana2.png)
 #### Jaeger
 - Utilizado para mostrar o rastreamento distribuído.
+- Rastreia solicitações em sistemas distribuídos, fornecendo visibilidade detalhada sobre o fluxo de trabalho, identificando problemas de desempenho e ajudando na solução de problemas em ambientes complexos.
 - ![jaeger](./assets/jaeger.png)
 ## 2. Conceitos aprendidos
 ### Observabilidade e sua importância
